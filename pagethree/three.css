@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    }
+/*抬头*/
+.tit{
+  width: 60%;
+  height:30px;
+  margin: 0 auto;
+  background:white;
+  font-family: "微软雅黑";
+  color:black;
+  font-size:small;
+  line-height: 30px;
+  
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+/*整体内容页面*/
+.container{
+  width:60%;
+  margin: 0 auto;
+}
+
+
+.logo{
+  height: 120px;
+  background:white;
+  text-align: center;
+}
+
+/*导航条*/
+.nav{
+   background:#FF69B4;
+}
+
+.nav ul{
+  font-family: "微软雅黑";
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+.nav ul li{
+  display: inline-block;
+  width: 9%;
+}
+
+.nav ul li a{
+  color:white;
+  text-decoration: none;
+}
+
+.nav ul li:hover {
+  background: white;
+  color: #FF69B4;
+  border-radius: 5px;
+}
+
+.nav ul li:hover a{
+  color: #FF69B4;
+}
+/*海报*/
+.poster{
+  position: relative;
+  height: 600px;
+  margin: 0 auto;
+  overflow: hidden;v
+  box-shadow: 5px 5px 15px #D3D3D3;
+  border-radius:5px;
+  border: 2px solid rgba(244,243,240,0.7);
+}
+.posterimg{
+  display: inline-flex;
+}
+
+.image{
+  display: none;
+}
+
+.active{
+  display:inline-block;
+}
+
+
+
+/*新品上市的浏览图*/
+.newpicture{
+  height: 500px;
+  margin-top: 50px;
+}
+.picturetit img{
+  width: 100%;
+}
+
+.picture-list img{
+  width: 200px;
+  height: 300px;
+}
+.newpicture ul{
+  padding:0px;
+}
+.newpicture li{
+  display: inline-block;
+  padding: 10px;
+}
+
+
+
+/*热销产品*/
+.hotpicture{
+  text-align: center;
+}
+
+.hottit img{
+  width: 100%;
+}
+
+.hotimg ul{
+  text-align: center;
+  padding: 0px;
+}
+
+.hotimg li{
+  display: inline-block;
+  width: 200px;
+  padding: 5px; 
+}
+
+.hotimg img{
+  width: 200px;
+}
+
+.hotimg a{
+    color:#FF69B4;
+}
+
+/*底部*/
+.foot{
+  width: 100%;
+  height: 150px;
+  background: #FFF0F5;
+  text-align: center;
+  color: #FF69B4;
+  font-family: "微软雅黑";
+  margin-top: 50px;
+}
+
+  
